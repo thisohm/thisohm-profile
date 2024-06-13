@@ -1,0 +1,86 @@
+.mountains {
+    background-image: url("../../../../public/assets/mountains.png");
+    background-position: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.stars {
+    background-image: url("../../../../public/assets/stars.png");
+    background-position: center right;
+    background-size: 100%;
+}
+
+.planets {
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 0px) {
+    .planets {
+        background-position: center left;
+        background-size: 260%;
+    }
+
+    .stars {
+        background-size: 400%;
+    }
+}
+
+@media (min-width: 430px) {
+    .planets {
+        background-position: center left;
+        background-size: 280%;
+    }
+
+    .stars {
+        background-size: 300%;
+    }
+}
+
+@media (min-width: 500px) {
+    .stars {
+        background-size: 250%;
+    }
+}
+
+@media (min-width: 780px) {
+    .planets {
+        background-position: center left;
+        background-size: cover;
+    }
+
+    .stars {
+        background-size: 200%;
+    }
+}
+
+@media (min-width: 900px) {
+    .planets {
+        background-position: center left;
+        background-size: cover;
+    }
+
+    .stars {
+        background-size: 150%;
+    }
+}
+
+@media (min-width: 1050px) {
+    .planets {
+        background-position: center;
+        background-size: cover;
+    }
+
+    .stars {
+        background-size: 150%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .stars {
+        background-size: 100%;
+    }
+}
